@@ -16,7 +16,7 @@ use Google\Protobuf\Internal\GPBUtil;
 class ListServiceRolloutsRequest extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Required. The name of the service.  See the [overview](https://cloud.google.com/service-management/overview)
+     * Required. The name of the service.  See the [overview](/service-management/overview)
      * for naming requirements.  For example: `example.googleapis.com`.
      *
      * Generated from protobuf field <code>string service_name = 1 [(.google.api.field_behavior) = REQUIRED];</code>
@@ -39,10 +39,10 @@ class ListServiceRolloutsRequest extends \Google\Protobuf\Internal\Message
      * Required. Use `filter` to return subset of rollouts.
      * The following filters are supported:
      *   -- To limit the results to only those in
-     *      status (google.api.servicemanagement.v1.RolloutStatus) 'SUCCESS',
+     *      [status](google.api.servicemanagement.v1.RolloutStatus) 'SUCCESS',
      *      use filter='status=SUCCESS'
      *   -- To limit the results to those in
-     *      status (google.api.servicemanagement.v1.RolloutStatus) 'CANCELLED'
+     *      [status](google.api.servicemanagement.v1.RolloutStatus) 'CANCELLED'
      *      or 'FAILED', use filter='status=CANCELLED OR status=FAILED'
      *
      * Generated from protobuf field <code>string filter = 4 [(.google.api.field_behavior) = REQUIRED];</code>
@@ -56,7 +56,7 @@ class ListServiceRolloutsRequest extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type string $service_name
-     *           Required. The name of the service.  See the [overview](https://cloud.google.com/service-management/overview)
+     *           Required. The name of the service.  See the [overview](/service-management/overview)
      *           for naming requirements.  For example: `example.googleapis.com`.
      *     @type string $page_token
      *           The token of the page to retrieve.
@@ -67,10 +67,10 @@ class ListServiceRolloutsRequest extends \Google\Protobuf\Internal\Message
      *           Required. Use `filter` to return subset of rollouts.
      *           The following filters are supported:
      *             -- To limit the results to only those in
-     *                status (google.api.servicemanagement.v1.RolloutStatus) 'SUCCESS',
+     *                [status](google.api.servicemanagement.v1.RolloutStatus) 'SUCCESS',
      *                use filter='status=SUCCESS'
      *             -- To limit the results to those in
-     *                status (google.api.servicemanagement.v1.RolloutStatus) 'CANCELLED'
+     *                [status](google.api.servicemanagement.v1.RolloutStatus) 'CANCELLED'
      *                or 'FAILED', use filter='status=CANCELLED OR status=FAILED'
      * }
      */
@@ -80,7 +80,7 @@ class ListServiceRolloutsRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Required. The name of the service.  See the [overview](https://cloud.google.com/service-management/overview)
+     * Required. The name of the service.  See the [overview](/service-management/overview)
      * for naming requirements.  For example: `example.googleapis.com`.
      *
      * Generated from protobuf field <code>string service_name = 1 [(.google.api.field_behavior) = REQUIRED];</code>
@@ -92,7 +92,7 @@ class ListServiceRolloutsRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Required. The name of the service.  See the [overview](https://cloud.google.com/service-management/overview)
+     * Required. The name of the service.  See the [overview](/service-management/overview)
      * for naming requirements.  For example: `example.googleapis.com`.
      *
      * Generated from protobuf field <code>string service_name = 1 [(.google.api.field_behavior) = REQUIRED];</code>
@@ -165,10 +165,10 @@ class ListServiceRolloutsRequest extends \Google\Protobuf\Internal\Message
      * Required. Use `filter` to return subset of rollouts.
      * The following filters are supported:
      *   -- To limit the results to only those in
-     *      status (google.api.servicemanagement.v1.RolloutStatus) 'SUCCESS',
+     *      [status](google.api.servicemanagement.v1.RolloutStatus) 'SUCCESS',
      *      use filter='status=SUCCESS'
      *   -- To limit the results to those in
-     *      status (google.api.servicemanagement.v1.RolloutStatus) 'CANCELLED'
+     *      [status](google.api.servicemanagement.v1.RolloutStatus) 'CANCELLED'
      *      or 'FAILED', use filter='status=CANCELLED OR status=FAILED'
      *
      * Generated from protobuf field <code>string filter = 4 [(.google.api.field_behavior) = REQUIRED];</code>
@@ -183,10 +183,10 @@ class ListServiceRolloutsRequest extends \Google\Protobuf\Internal\Message
      * Required. Use `filter` to return subset of rollouts.
      * The following filters are supported:
      *   -- To limit the results to only those in
-     *      status (google.api.servicemanagement.v1.RolloutStatus) 'SUCCESS',
+     *      [status](google.api.servicemanagement.v1.RolloutStatus) 'SUCCESS',
      *      use filter='status=SUCCESS'
      *   -- To limit the results to those in
-     *      status (google.api.servicemanagement.v1.RolloutStatus) 'CANCELLED'
+     *      [status](google.api.servicemanagement.v1.RolloutStatus) 'CANCELLED'
      *      or 'FAILED', use filter='status=CANCELLED OR status=FAILED'
      *
      * Generated from protobuf field <code>string filter = 4 [(.google.api.field_behavior) = REQUIRED];</code>
